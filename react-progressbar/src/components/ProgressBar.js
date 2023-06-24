@@ -47,12 +47,12 @@ const ProgressBar = () => {
 	};
 
 	return (
-		<>
+		<div>
 			<div style={ParentDiv}>
 				<div style={ChildDiv}></div>
 			</div>
 			<span style={ProgressStyles}>{`${progress}%`}</span>
-		</>
+		</div>
 	);
 };
 
